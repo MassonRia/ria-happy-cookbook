@@ -1,0 +1,6 @@
+_site/
+__pycache__/
+*.pyc
+# Cookbook backups and private media belong on your devices, never in Git.
+*Backup*.zip
+media/
