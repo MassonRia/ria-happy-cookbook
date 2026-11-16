@@ -20,7 +20,7 @@
 
 ## Limits and device checks
 
-These checks used Chromium on Linux with mobile/touch emulation, not a physical iPhone or macOS Safari. Web Audio scheduling was exercised; physical speaker output was not listened to. iPhone installation, silent-mode behavior, Safari storage and native file pickers still need a real-device check. GitHub Pages has not been published.
+These checks used Chromium on Linux with mobile/touch emulation, not a physical iPhone or macOS Safari. Web Audio scheduling was exercised; physical speaker output was not listened to. iPhone installation, silent-mode behavior, Safari storage and native file pickers still need a real-device check. GitHub Pages deployed successfully at https://massonria.github.io/ria-happy-cookbook/; workflow run 43801158761 passed its calculation tests, packaging and deployment.
 
 On your iPhone and Mac, open the deployed HTTPS app, test New Recipe, a short audible timer while visible, backup/restore and offline reopen. iOS can suspend background/locked/closed-app audio and timers: the app does not promise alerts in those states. Use the native Clock app for reliable background alarms.
 

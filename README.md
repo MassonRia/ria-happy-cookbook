@@ -2,17 +2,17 @@
 
 An offline-first recipe box for Ria Masson, with vintage pink gingham, strawberries, cherries and bows. No account, subscription, build tools, server database, remote fonts, analytics or automatic uploads.
 
-## Publish this repository
+## Open your live cookbook
 
-The app source is now maintained in **MassonRia/ria-happy-cookbook**. The repository remains private. This does not by itself create a working website or make a Pages website access-restricted.
+**https://massonria.github.io/ria-happy-cookbook/**
 
-1. **Export a ZIP backup from your old downloaded cookbook before moving.** The old `file:///Users/.../index.html` address is a separate storage location and cannot receive updates from GitHub. Your locally stored recipes are not in this source repository.
-2. Open this repository’s **Settings → Pages**. For this private repository, GitHub Pages requires an eligible paid GitHub plan. If GitHub requests an upgrade, you can keep the repository private and choose another hosting service instead; the app has not changed your privacy settings.
-3. Under **Build and deployment**, choose **GitHub Actions**. The included **Publish cookbook** workflow tests and packages the static app and deploys it. Run it from **Actions → Publish cookbook → Run workflow** once Pages is enabled. Subsequent pushes to `main` trigger it automatically.
-4. After a successful deployment, open the exact URL GitHub reports. The usual project URL is `https://massonria.github.io/ria-happy-cookbook/`, but it is not live until deployment succeeds. Pages websites are generally public even when their source repository is private. Use access-controlled hosting if only you should be able to open the website.
-5. Open the published HTTPS address, restore your backup, and install it using the iPhone instructions below. Do not continue opening the old Downloads folder.
+The cookbook is published through GitHub Pages from **MassonRia/ria-happy-cookbook**. The repository and website are public; your saved recipe data and attached media remain local to each device and are not uploaded. The Pages workflow runs the calculation tests, packages the offline app and deploys pushes to `main` automatically.
 
-The connection used for this setup can write repository code but cannot currently access Pages administration. Hosting availability and enablement must be checked in your GitHub account. The app is a dependency-free static site, so it can also be hosted by a service with private access controls; no paid backend is required by the app itself.
+1. **Export a ZIP backup from your old downloaded cookbook before moving.** The old `file:///Users/.../index.html` address is a different storage location and cannot receive updates from GitHub.
+2. Open the live HTTPS address above, select **Restore Backup**, and import your old ZIP to transfer recipes and media.
+3. Install from Safari using the iPhone instructions below. Continue using this permanent web address or its Home Screen icon, rather than the old Downloads folder.
+
+Pages is enabled with **Settings → Pages → Source: GitHub Actions**. To deploy manually, open **Actions → Publish cookbook → Run workflow**. Public repositories can use GitHub Pages for free; changing this repository back to private may affect hosting eligibility. A private source repository does not automatically provide website access controls.
 
 ## Future updates—no Library checking
 
